@@ -4,13 +4,13 @@ import { Photo } from '../photo/photo';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-photo-list',
+  selector: 'ap-photo-list',
   templateUrl: './photo-list.component.html',
   styleUrls: ['./photo-list.component.css']
 })
 export class PhotoListComponent implements OnInit {
 
-  photos: Photo[] = [ ];
+  photos: Photo[] = [];
 
   constructor(
     private photoService: PhotoService,
